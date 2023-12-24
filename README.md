@@ -35,11 +35,11 @@ export default {
 ```bash
 cd Car-damage-app && npm install
 ```
-# development
+# Development
 ```bash
 npm run dev
 ```
-# build
+# Build
 ```bash
 npm run build
 ```
@@ -47,11 +47,11 @@ Copy out files to your application
 ```
 cp dist/plugin.js path/to/app/
 ```
-and
+And
 ```
 cp dist/plugin.css path/to/app/
 ```
-types in plugin
+Types in plugin
 ```typescript
 interface PluginOptions {
     selector: string;
@@ -73,7 +73,7 @@ interface Window {
 
 ```
 
-in your application usage example
+Usage in other application
 ```typescript
 import "./global.d.ts"
 
