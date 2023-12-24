@@ -1,0 +1,115 @@
+.car-image
+{
+    padding: 3rem;
+   
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 800px;
+    
+}
+
+.h-8
+{
+    max-width: 80vw;
+}
+.background
+{
+    background-image: url("https://i.pinimg.com/originals/d5/52/7b/d5527bdc04fd7dd476131bdf5ee8eebb.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+
+.grid-4
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 60px;
+}
+
+.grid-5
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 123px;
+}
+
+.damage-indicator
+{
+    background-color: transparent;
+    /* border-radius: 100%; */
+    height: 100px;
+    width: 100px;
+}
+
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.report
+{
+    margin-inline: auto; 
+    min-width: 500px;
+    padding: 2rem 5rem;
+    background-color: #1a405a;
+    border-radius: 10px;
+}
+
+.justify-center
+{
+    align-items: center;
+}
+
+.justify-start
+{
+    align-items: flex-start;
+}
+
+.justify-end
+{
+    align-items: flex-end;
+}
+.text
+{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.rounded
+{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.rounded:hover
+{
+    cursor: pointer;
+}
+
+.ml-2
+{
+    margin-left: 20px;
+}
+
+.ml-4
+{
+    margin-left: 40px;
+}
+
+.active
+{
+    background-color: orange;
+}
